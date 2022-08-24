@@ -1,0 +1,210 @@
+#top{
+    height:800px ;
+    width:100%;
+    background-color: rgb(16, 16, 71);
+    position: absolute;
+    left: 0;
+    right: 0;
+}
+#heading_section{
+    width:50%;
+    margin: auto;
+    margin-top: 50px;
+    text-align: center;
+}
+#heading_section>h1{
+    color: white;
+    font-size: 80px;
+    line-height: 90px;
+    font-weight: 400;
+    font-family:'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+}
+#heading_section>h3{
+    color:white;
+    font-size: 25px;
+    margin-top: -20px;
+    font-weight: 100;
+    font-family:'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+
+}
+#selecting_boxes{
+    width:85%;
+    margin: auto;
+    margin-top: 80px;
+    height:150px;
+    display: grid;
+    grid-template-columns: repeat(9,1fr);
+    gap:20px;
+}
+#selecting_boxes>div,#selecting_boxes input{
+    cursor:  pointer
+}
+#selecting_boxes>div{
+    border:1px solid grey;
+    border-radius: 10px;
+}
+#selecting_boxes input{
+    width:30px;
+    height: 25px;
+    opacity: 0.2;
+}
+.img_div{
+    width:40%;
+    margin: auto;
+}
+.img_div>img{
+    width:100%;
+    height:100%;
+}
+.img_div+div{
+    width:70%;
+    margin: auto;
+}
+#selecting_boxes h3{
+    text-align: center;
+    color: white;
+}
+.get_started{
+    display:block;
+    background-color: rgb(61, 101, 194);
+    margin: auto;
+    margin-top: 80px;
+    height:65px;
+    width:200px;
+    border-radius: 30px;
+}
+.get_u{
+    height:60px;
+    width:220px;
+    border-radius: 30px;
+    display:block;
+    margin-top: 40px;
+    margin-left: 20px;
+    background-color: rgb(109, 102, 235);
+}
+.get_started>h4,.get_u>h4{
+    font-size: 18px;
+    color:white;
+}
+.get_started span,.get_u span {
+    cursor: pointer;
+    display: inline-block;
+    position: relative;
+    transition: 0.5s;
+}
+.get_started span:after ,.get_u span:after{
+    content: '→';
+    position: absolute;
+    opacity: 0;
+    top: 0;
+    right: -20px;
+    transition: 0.5s;
+}
+  
+.get_started:hover span ,.get_u:hover span{
+    padding-right: 25px;
+}
+  
+  .get_started:hover span:after, .get_u:hover span:after{
+    opacity: 1;
+    right: 0;
+}
+.get_started+p{
+    text-align: center;
+    color: white; 
+    font-style: bold;
+    font-size: 18px;
+    margin-top: 20px;
+}
+#tri_img{
+    position: sticky;
+    top:0px;
+    left: 0;
+    right: 0;
+    width:100%;
+    height:660px;
+}
+#tri_img>img{
+    width:100%;
+    display: block;
+}
+#tri_img+p{
+    text-align: center;
+    font-size: 25px;
+    word-spacing: 5px;
+    font-display: bold;
+    margin-top: -5px;
+}
+#page_brands{
+    width:90%;
+    height:150px;
+    margin: auto;
+    display: grid;
+    grid-template-columns: repeat(9,1fr);
+    gap:20px;
+    
+    justify-content:center ;
+    align-items: center;
+}
+#page_brands>div{
+    justify-content:center ;
+    align-items: center;
+}
+#page_brands img{
+    width:100%;
+    display: block;
+}
+#selecting_boxes>div:nth-child(1):hover{
+border-color: rgb(224, 96, 118);
+
+}
+#selecting_boxes>div:nth-child(2):hover{
+    border-color:rgb(28, 163, 28) ;
+}
+#selecting_boxes>div:nth-child(3):hover{
+    border-color: rgb(224, 96, 118);
+}
+#selecting_boxes>div:nth-child(4):hover{
+    border-color:orange ;
+}
+#selecting_boxes>div:nth-child(5):hover{
+    border-color:aqua ;
+}
+#selecting_boxes>div:nth-child(6):hover{
+    border-color:blue ;
+}
+#selecting_boxes>div:nth-child(7):hover{
+    border-color:orangered ;
+}
+#selecting_boxes>div:nth-child(8):hover{
+    border-color:teal ;
+}
+#selecting_boxes>div:nth-child(9):hover{
+    border-color:violet ;
+}
+#after_logo{
+    height:300px;
+    width:90%;
+    margin-left: 3%;
+    display: grid;
+    grid-template-columns: repeat(2,1fr);
+    gap:10px;
+    justify-content: center;
+    align-items: center;
+}
+
+#after_logo>div:nth-child(1)>h1{
+    width:65%;
+    margin: auto;
+    text-align: center;
+    font-size: 38px;
+    font-display: bold;
+}
+#after_logo>div:nth-child(2){
+    margin-top: 90px;
+}
+#after_logo>div:nth-child(2)>h2{
+    width:90%;
+    margin: auto;
+    line-height: 40px;
+}
