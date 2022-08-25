@@ -1,0 +1,152 @@
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+header {
+  width: 100%;
+  height: 100vh;
+  /* background-color: rgb(17, 17, 107); */
+  /* background-image: linear-gradient(rgba(0, 0, 0, 0.8), rgba(0, 0, 0, 0.8)),
+    url("/images/ab2.jpg"); */
+  background-position: center;
+  background-size: cover;
+  position: absolute;
+}
+nav {
+  width: 100%;
+  height: 70px;
+  background-color: white;
+  color: black;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  padding: 0 0px;
+  position: sticky;
+  top: 0;
+}
+.logo {
+  font-family: sans-serif;
+  /* font-size: 2.5em; */
+  cursor: pointer;
+}
+.menu a {
+  text-decoration: none;
+  font-family: sans-serif;
+  color: black;
+  padding: 5px 10px;
+  font-size: 20px;
+  cursor: pointer;
+}
+.menu a:hover {
+  color: #e74c3c;
+}
+.menu a:nth-child(1) {
+  color: #e74c3c;
+}
+.menu a:nth-child(1):hover {
+  color: red;
+}
+/* nav .logo img {
+  margin-left: 10px;
+  width: 50px;
+  height: 40px;
+} */
+.icon i {
+  font-size: 20px;
+  cursor: pointer;
+}
+.icon i:hover {
+  color: #e74c3c;
+}
+.icon a {
+  text-decoration: none;
+  color: black;
+  border-radius: 5px;
+  cursor: pointer;
+  font-size: 20px;
+  padding: 5px 10px;
+  margin-left: 30px;
+}
+.icon a:nth-child(4) {
+  background-color: rgb(0, 0, 96);
+  border-radius: 10px;
+  color: white;
+  margin-right: 5px;
+}
+
+/* mid sec----- */
+
+.dashboard-mid {
+  background-color: rgb(8, 6, 83);
+  width: 100%;
+  height: 580px;
+  display: flex;
+  justify-content: space-around;
+}
+
+.das-h {
+  color: white;
+  margin: 90px 90px;
+  margin-top: 200px;
+}
+.dashboard-mid .das-h h1 {
+  font-weight: bold;
+  font-size: 40px;
+  margin-bottom: 10px;
+}
+.das-h h5 {
+  border-radius: 10px;
+  margin-top: 20px;
+  height: 25px;
+  width: 125px;
+  background-color: white;
+  color: rgb(8, 6, 83);
+  font-size: 20px;
+  gap: 10px;
+  cursor: pointer;
+}
+.das-h h5:hover {
+  color: black;
+}
+
+/* ---video */
+.video {
+  margin-right: 90px;
+}
+
+/* <!-- ________next img sec-----// --> */
+
+.img-cont {
+  width: 60%;
+  height: 250px;
+  margin: auto;
+  /* border: 1px solid red; */
+  margin-top: 55px;
+}
+.fst-row {
+  display: flex;
+  justify-content: space-around;
+}
+.fst-row img {
+  display: flex;
+  justify-content: space-around;
+  width: 80%;
+  height: 60px;
+  padding: 3px;
+  margin-top: 20px;
+}
+.snd-row {
+  display: flex;
+  justify-content: space-around;
+}
+.snd-row img {
+  display: flex;
+  justify-content: space-around;
+  width: 70%;
+  height: 50px;
+
+  margin-top: 20px;
+  margin-left: 5px;
+  margin-right: 5px;
+}
