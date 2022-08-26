@@ -287,3 +287,117 @@ height:100%;
     width:90%;
    margin-left: 20px;
 }
+#mid_end>div:nth-child(1)>h1{
+    text-align: center;
+    margin-top: 80px;
+    font-size: 50px;
+    font-weight: 300;
+}
+#mid_end>div:nth-child(1)>h4{
+    text-align: center;
+    font-size: 22px;
+    margin-top: -10px;
+    font-weight: 100;
+}
+#boards{
+    height:120px;
+    width:70%;
+    margin: auto;
+    display: grid;
+    grid-template-columns: repeat(7,1fr);
+    text-align: center;
+    box-shadow: rgba(100, 100, 111, 0.2) 0px 7px 29px 0px;
+}
+#boards>div>div:nth-child(1){
+    margin-top:10%;
+}
+#video_section{
+    height:600px;
+    width:80%;
+    margin:auto;
+    display: grid;
+    grid-template-columns: repeat(2,1fr);
+    align-items: center;
+    text-align: center;
+    margin-bottom: 300px;
+}
+#video_section video{
+    width:100%;
+    height:100%;
+}
+#video_section h2{
+    font-size: 40px;
+    font-weight: 200;
+}
+#video_section p{
+    font-size: 30px;
+    font-weight: 100;
+    color: brown;
+}
+#end>div:nth-child(1){
+    width:300px;
+    margin: auto;
+}
+#end>div:nth-child(1) img{
+    width: 100%;
+}
+#end>div:nth-child(2){
+    text-align: center;
+}
+#end>div:nth-child(2) h1{
+    font-size: 60px;
+    font-weight: 300;
+}
+#end>div:nth-child(2) p{
+    font-size: 25px;
+    font-weight: 100;
+}
+#category{
+    height:600px;
+    width:90%;
+    margin: auto;
+    display: grid;
+    grid-template-columns: repeat(5,1fr);
+    gap:20px;
+    text-align: left;
+}
+.cat_div{
+    box-shadow: rgba(100, 100, 111, 0.2) 0px 7px 29px 0px;
+}
+.cat_div img{
+    width:80%;
+    height:60px;
+    display: block;
+    margin: auto;
+    margin-top: 20px;
+
+}
+.cat_div h4{
+    margin-left: 11%;
+    font-size: 20px;
+    font-weight: 200;
+}
+.cat_div p{
+    margin-left: 11%;
+    font-size: 18px;
+    font-weight: 100;
+}
+hr {
+    height: 4px;
+    background-color:rgb(80, 80, 219);
+    border: none;
+}
+.cat_div button{
+    height:40px;
+    width: 80%;
+    display: block;
+    margin: auto;
+    background-color: white;
+    border-radius: 20px;
+
+}
+.learn{
+    text-align: center;
+    margin-top: 40px;
+
+}
