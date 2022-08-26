@@ -1,0 +1,113 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <link rel="stylesheet" href="./navbar_footer.css">
+    <link rel="stylesheet" href="aboutUs.css">
+    <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/font-awesome/4.7.0/css/font-awesome.min.css">
+</head>
+
+<body>
+    <div id="navContainer"></div>
+    <div id="bgImg">
+        <h1>So how did <span>monday.com</span></h1>
+        <h1>come to be?</h1>
+    </div>
+    <div id="random">
+        <div>
+            <p>
+                Well for us, it happened somewhere in between collaborating and communicating, engaging one another and scaling rapidly, being totally transparent and working the way we want, while always aspiring to outdo our best. It grew in between building, creating, managing, and always laughing along the way. It expanded as we integrated and automated, built workflows and created templates, and developed our community beyond our wildest dreams. We experienced firsthand how much more we can accomplish when wereally, truly work together.
+            </p>
+        </div>
+        <div>
+            <p>
+                We experienced how deeply empowering it is to build our own workflows with customizable building blocks. How there can be a place where all work happens- eliminating silos, aligning our organizations, and elevating our teams. It is through this journey that the monday.com Work OS was born. It is in these moments that the magic happens. And it is so exciting to know that as we continue on our mission together, we’re only getting started...
+            </p>
+        </div>
+    </div>
+    <div id="points">
+        <h1>monday.com data points</h1>
+        <div>
+            <div>
+                <h1>1,200+</h1>
+                <p>employees</p>
+            </div>
+            <div>
+                <h1>152k+</h1>
+                <p>customers using monday.com</p>
+            </div>
+            <div>
+                <h1>84%</h1>
+                <p>of people feel happier using monday.com</p>
+            </div>
+            <div>
+                <h1>87k+</h1>
+                <div>
+                    <p>llama widgets created</p>
+                    <img src="//monday.com/p/wp-content/themes/monday-news/css/../images/lama-widget.png" alt="">
+                </div>
+            </div>
+        </div>
+    </div>
+    <div id="people">
+        <div>
+            <p>Our culture</p>
+            <h1>When you break it down, it's all about the people</h1>
+            <img src="https://monday.com/p/wp-content/uploads/2020/09/culture-desktop.jpg" alt="">
+        </div>
+        <div>
+            <div>
+                <h1>Transparency and Trust</h1>
+                <div></div>
+                <p>Data is at the core of our identity both as a company and a team, and is an essential part of our platform. Access to data allows teams to work even better together and perform at their professional best. It's that kind of total freedom that builds trust and leads to fast execution and high impact.</p>
+            </div>
+            <div>
+                <h1>Customer-Centricity</h1>
+                <div></div>
+                <p>Our customers’ satisfaction and success is at the heart of everything we do. We are passionately committed to helping customers with our best-in-class support, and we believe that when our customers win, we win.</p>
+            </div>
+            <div>
+                <h1>Product-first</h1>
+                <div></div>
+                <p>We mean it when we say that a product should work for the customer and not the other way around. Every feature is designed with ease of use in mind to deliver the best user experience. And proven by the fact that more than 70% of our customers work in traditionally non-tech industries.</p>
+            </div>
+            <div>
+                <h1>Ownership and Impact</h1>
+                <div></div>
+                <p>We have learned that our employees need to take full ownership over their work, from A to Z, which instills a sense of personal investment and drive leading to better overall execution and an understanding that ‘done’ is often better than perfect.</p>
+            </div>
+            <div>
+                <h1>Speed and Execution</h1>
+                <div></div>
+                <p>We believe the faster you execute, the faster you learn, iterate, and improve. We are constantly running at our own pace and seeking feedback, both internally and from customers, so we can outdo our best. We believe this eagerness to try and improve gives us a competitive edge, especially as we continue to scale.</p>
+            </div>
+            <div>
+                <h1>Inclusivity</h1>
+                <div></div>
+                <p>We have embedded inclusivity in the core of our company values and our platform experience, providing an experience open to everyone. We prioritize inclusion and diversity not only because it is right, but because we believe it creates better teams and ultimately a better product.</p>
+            </div>
+        </div>
+    </div>
+    <div id="location">
+        <h1>Location</h1>
+    </div>
+    <div id="footerContainer"></div>
+</body>
+
+</html>
+
+
+<script type="module">
+
+    import {navbar,footer} from "./components/nav&footer.js"
+
+    document.querySelector("#navContainer").innerHTML = navbar();
+    document.querySelector("#footerContainer").innerHTML = footer();
+
+</script>
+
+<script src="dropdown.js"></script>
