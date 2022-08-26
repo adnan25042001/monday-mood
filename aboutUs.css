@@ -84,19 +84,117 @@
     margin: auto;
     width: 1400px;
     display: grid;
-    grid-template-columns: 26% 58%;
+    grid-template-columns: 26% 60%;
     justify-content: space-around;
-    border: 1px solid black;
     padding: 165px 30px 100px;
 }
-#people>div{
-    border: 1px solid red;
+#people>div:first-child>h1{
+    font-size: 34px;
+    line-height: 1.4em;
+    margin-top: 10px;
+    margin-bottom: 30px;
+    color: rgb(65, 65, 65);
+}
+#people>div:first-child>p{
+    font-size: 24px;
+    color: rgb(81, 81, 81);
 }
 #people>div:last-child{
     display: grid;
     grid-template-columns: repeat(2,1fr);
     gap: 50px;
 }
+#people>div:last-child>div>h1{
+    font-size: 30px;
+    margin-bottom: 15px;
+    color: rgb(65, 65, 65);
+}
+#people>div:last-child>div>p{
+    font-size: 20px;
+    margin-top: 15px;
+    line-height: 1.5em;
+    color: rgb(81, 81, 81);
+}
+.vrLine{
+    height: 7px;
+    width: 45px;
+    background-color: #6c6cff;
+}
 #people img{
     width: 100%;
+}
+#location{
+    width: 100%;
+    height: 320px;
+    margin-top: 50px;
+    background-image: linear-gradient(to bottom, rgb(249, 249, 249), white, white, white, white, white);
+    display: grid;
+    align-items: center;
+    align-content: center;
+    justify-content: center;
+    gap: 40px;
+    font-size: 20px;
+    color: rgb(65, 65, 65);
+}
+#location button {
+    width: 220px;
+    padding: 15px;
+    font-size: 18px;
+    border-radius: 30px;
+    border: none;
+    background-color: rgb(105, 171, 238);
+    color: white;
+}
+#location button:hover {
+    background-color: rgb(81, 146, 251);
+}
+#location h1{
+    text-align: center;
+}
+#gray{
+    width: 100%;
+    height: 130px;
+    background-image: linear-gradient(to bottom, rgb(249, 249, 249), white, white);
+}
+#getToKnow{
+    width: 1000px;
+    margin: auto;
+    display: grid;
+    justify-content: center;
+    align-items: center;
+}
+#getToKnow>h1{
+    text-align: center;
+    margin-bottom: 70px;
+    font-size: 36px;
+    color: rgb(52, 52, 52);
+}
+#getToKnow>div{
+    display: grid;
+    grid-template-columns: repeat(3,1fr);
+    gap: 20px;
+}
+#getToKnow>div>div{
+    padding: 4px;
+    border-radius: 15px;
+    box-shadow: rgba(0, 0, 0, 0.15) 0px 0px 25px;
+    cursor: pointer;
+}
+#getToKnow>div img{
+    width: 100%;
+    border-radius: 15px;
+}
+#getToKnow>div>div>h3, #getToKnow>div>div>h2, #getToKnow>div>div>p{
+    margin: 15px 20px;
+}
+#getToKnow>div>div>h2{
+    line-height: 1.4em;
+    font-size: 28px;
+    color:rgb(52, 52, 52);
+}
+#getToKnow>div>div>p{
+    font-size: 18px;
+    line-height: 1.6em;
+    color: rgb(65, 65, 65);
+    margin-top: -10px;
 }
