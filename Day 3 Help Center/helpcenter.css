@@ -1,0 +1,129 @@
+body{
+    margin: 0px;
+    font-family: sofia-pro,Roboto,Helvetica,Arial,sans-serif;
+}
+#container{
+    height: 600px;
+    width: 100%;
+    background-color: #0f1048;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    text-align: center;
+}
+#container div h1 {
+color: #B4B4FF;
+font-size: 60px;
+
+}
+#container div h5{
+    color: white;
+    font-size: 16px;
+    font-weight: 300;
+}
+#serach{
+    display: block;
+    padding: 25px 40px;
+    width: 100%;
+    border-radius: 35px;
+    font-weight: 500;
+    font-size: 16px;
+    text-align: left;
+}
+span{
+    color: grey;
+    position: relative;
+    top: 52px;
+    right: 47%;
+    margin-left: 20px;
+    margin-right: 10px;
+    
+}
+
+
+#mid-container{
+    width: 90%;
+    display: flex;
+    margin: auto;
+}
+
+#mid-container-1{
+    width: 35%;
+    /* height: 400px; */
+
+}
+#mid-container-2{
+    width: 55%;
+        /* height: 400px; */
+
+}
+#mid-container-1 div img{
+    display: block;
+    width: 100%;
+}
+#mid-container-1 div {
+   margin-top: 10%;
+   width: 90%;
+   font-size: 20px;
+}
+#mid-container-1 div h5,#mid-container-1 div h6,#mid-container-1 div p{
+    margin-left: 15%;
+    font-size: 16px;
+    font-weight: 300;
+    line-height: 0px;
+    margin-top: 30px;
+    margin-bottom: 10px;
+
+}
+
+#mid-container-2{
+    text-align: left;
+}
+#mid-container-2  h1{
+    font-weight: bold;
+    font-size: 17px;
+    margin-top: 40px;
+}
+#mid-container-2 p{
+    margin-top: 0px;
+
+}
+#mid-container-2 button{
+    margin-top: 0px;
+    background-color: white;
+    border: 0.5px solid;
+    padding: 5px 10px;
+    border-radius: 15px;
+    
+}
+hr{
+height: 0.5px;
+}
+#mid-container-2{
+    margin-left: 5%;
+}
+
+#last-container{
+    margin-top: 10%;
+    height: 400px;
+    background-color: #6161E9;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    text-align: center;
+    margin-bottom: 5%;
+}
+
+#last-container div h1{
+    color: white;
+}
+
+#last-container div button{
+    padding: 15px 40px;
+    background-color: white
+    ;
+    color: #6161E9;
+    font-weight: 500;
+    border: 0px;
+    border-radius: 55px;
+}
