@@ -1,0 +1,364 @@
+#bgImg {
+    background-image: url(//monday.com/p/wp-content/themes/monday-news/css/../images/about-hero-opt-2.jpg);
+    min-height: 492px;
+    display: flex;
+    align-items: center;
+    align-content: center;
+    justify-content: center;
+    flex-direction: column;
+    background-repeat: no-repeat;
+    background-position: center center;
+    -webkit-background-size: contain;
+    background-size: contain;
+}
+
+#bgImg h1 {
+    font-size: 50px;
+    width: 600px;
+    text-align: center;
+    color: rgb(52, 52, 52);
+}
+#bgImg h1>span{
+    color: black;
+}
+#bImg{
+    width: 0px;
+    height: 0px;
+}
+
+#random {
+    padding: 150px 230px 120px;
+    display: flex;
+    gap: 50px;
+    font-size: 18px;
+    color: rgb(81, 81, 81);
+    justify-content: space-between;
+}
+
+#random>div {
+    width: 520px;
+}
+
+#random p {
+    line-height: 1.4rem;
+}
+
+#points {
+    width: 100%;
+    background-color: #6c6cff;
+    color: white;
+    padding: 60px 160px 50px;
+    text-align: center;
+}
+
+#points>h1 {
+    font-size: 40px;
+    line-height: 50px;
+    margin-bottom: 40px;
+}
+
+#points>div {
+    margin: auto;
+    display: grid;
+    grid-template-columns: repeat(4, 1fr);
+    gap: 50px;
+}
+
+#points>div h1 {
+    font-size: 76px;
+    line-height: 100px;
+}
+
+#points>div p {
+    font-size: 22px;
+    margin: 0px 20px;
+}
+#points>div>div>div{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+#points>div>div>div p{
+    margin: 0px 0px 0px 50px;
+}
+#points img{
+    width: 70px;
+}
+#people{
+    margin: auto;
+    width: 1400px;
+    display: flex;
+    justify-content: space-around;
+    padding: 165px 30px 100px;
+}
+#people>div:first-child{
+    width: 26%;
+}
+#people>div:first-child>h1{
+    font-size: 34px;
+    line-height: 1.4em;
+    margin-top: 10px;
+    margin-bottom: 30px;
+    color: rgb(65, 65, 65);
+}
+#people>div:first-child>p{
+    font-size: 24px;
+    color: rgb(81, 81, 81);
+}
+#peopleImg2{
+    transform: scale(0);
+    visibility: hidden;
+}
+#people>div:last-child{
+    width: 60%;
+    display: grid;
+    grid-template-columns: repeat(2,1fr);
+    gap: 50px;
+}
+#people>div:last-child>div>h1{
+    font-size: 30px;
+    margin-bottom: 15px;
+    color: rgb(65, 65, 65);
+}
+#people>div:last-child>div>p{
+    font-size: 20px;
+    margin-top: 15px;
+    line-height: 1.5em;
+    color: rgb(81, 81, 81);
+}
+.vrLine{
+    height: 7px;
+    width: 45px;
+    background-color: #6c6cff;
+}
+#people img{
+    width: 100%;
+}
+#location{
+    width: 100%;
+    height: 320px;
+    margin-top: 50px;
+    background-image: linear-gradient(to bottom, rgb(249, 249, 249), white, white, white, white, white);
+    display: grid;
+    align-items: center;
+    align-content: center;
+    justify-content: center;
+    gap: 40px;
+    font-size: 20px;
+    color: rgb(65, 65, 65);
+}
+#location button {
+    width: 220px;
+    padding: 15px;
+    font-size: 18px;
+    border-radius: 30px;
+    border: none;
+    background-color: rgb(105, 171, 238);
+    color: white;
+}
+#location button:hover {
+    background-color: rgb(81, 146, 251);
+}
+#location h1{
+    text-align: center;
+}
+#gray{
+    width: 100%;
+    height: 130px;
+    background-image: linear-gradient(to bottom, rgb(249, 249, 249), white, white);
+}
+#getToKnow{
+    width: 1000px;
+    margin: auto;
+    display: grid;
+    justify-content: center;
+    align-items: center;
+}
+#getToKnow>h1{
+    text-align: center;
+    margin-bottom: 70px;
+    font-size: 36px;
+    color: rgb(52, 52, 52);
+}
+#getToKnow>div{
+    display: grid;
+    grid-template-columns: repeat(3,1fr);
+    gap: 20px;
+}
+#getToKnow>div>div{
+    padding: 4px;
+    border-radius: 15px;
+    box-shadow: rgba(0, 0, 0, 0.15) 0px 0px 25px;
+    cursor: pointer;
+}
+#getToKnow>div img{
+    width: 100%;
+    border-radius: 15px;
+}
+#getToKnow>div>div h3, #getToKnow>div>div h2, #getToKnow>div>div p{
+    margin: 15px 20px;
+}
+#getToKnow>div>div h2{
+    line-height: 1.4em;
+    font-size: 28px;
+    color:rgb(52, 52, 52);
+}
+#getToKnow>div>div p{
+    font-size: 18px;
+    line-height: 1.6em;
+    color: rgb(65, 65, 65);
+    margin-top: -10px;
+}
+#social{
+    display: flex;
+    flex-direction: column;
+    margin-top: 150px;
+    text-align: center;
+    align-items: center;
+    justify-content: center;
+    margin-bottom: 120px;
+    font-size: 18px;
+    gap: 40px;
+    color: rgb(65, 65, 65);
+}
+#social>div{
+    display: grid;
+    grid-template-columns: repeat(6,1fr);
+    gap: 20px;
+}
+#social img{
+    width: 35px;
+    height: 35px;
+    cursor: pointer;
+}
+#instaLinks{
+    display: flex;
+    gap: 10px;
+    justify-content: center;
+    align-items: center;
+}
+#instaLinks>img{
+    height: 200px;
+    width: 200px;
+    cursor: pointer;
+}
+#trial{
+    width: 500px;
+    margin: 150px auto 100px;
+    text-align: center;
+}
+#trial>h1{
+    font-size: 34px;
+    line-height: 1.4em;
+    color: rgb(65, 65, 65);
+}
+#trial>button {
+    width: 170px;
+    padding: 15px;
+    font-size: 18px;
+    border-radius: 30px;
+    border: none;
+    background-color: #3c3ce1;
+    color: white;
+    margin: 20px auto 30px;
+}
+#trial>button:hover {
+    background-color: #2424c6;
+}
+#trial>p{
+    font-size: 18px;
+    color: rgb(81, 81, 81);
+}
+
+/* ************************************ Media Query ************************************* */
+
+@media all and (max-width:1400px) and (min-width:992px){
+    #bgImg h1{
+        font-size: 34px;
+    }
+    #people{
+        width: 100%;
+    }
+}
+
+@media all and (max-width:991px) and (min-width:400px){
+    #bgImg{
+        background-image: none;
+        min-height: 0;
+    }
+    #bgImg>h1{
+        width: 350px;
+        margin-top: 50px;
+        margin-bottom: 50px;
+    }
+    #bImg{
+        width: 100%;
+        height: 100%;
+    }
+    #people{
+        width: 100%;
+        flex-direction: column;
+    }
+    #random{
+        flex-direction: column;
+        gap: 0px;
+        padding: 150px 0px 120px;
+    }
+    #random>div{
+        margin: auto;
+        width: 680px;
+    }
+    #points{
+        padding-bottom: 70px;
+    }
+    #points>div{
+        grid-template-columns: repeat(2, 1fr);
+    }
+    #people>div:first-child{
+        width: 100%;
+    }
+    #people>div:last-child{
+        width: 100%;
+        grid-template-columns: repeat(3,1fr);
+        margin-top: 20px;
+    }
+    #peopleImg2{
+        transform: scale(1);
+        visibility: visible;
+    }
+    #peopleImg1{
+        width: 0px;
+        height: 0px;
+        transform: scale(0);
+        visibility: hidden;
+    }
+    #location{
+        margin-top: 0px;
+    }
+    #getToKnow{
+        width: 100%;
+    }
+    #getToKnow>div{
+        grid-template-columns: repeat(1,1fr);
+    }
+    #getToKnow>div>div{
+        display: flex;
+        align-items: center;
+        padding: 10px;
+    }
+    #getToKnow>div>div>img{
+        width: 150px;
+        height: 130px;
+    }
+    #social>div{
+        grid-template-columns: repeat(3,1fr);
+        gap: 30px 50px;
+    }
+    #social{
+        margin-bottom: 90px;
+    }
+    #instaLinks>img{
+        height: 120px;
+        width: 120px;
+    }
+}
