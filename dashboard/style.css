@@ -100,7 +100,7 @@ nav {
 .das-h {
   color: white;
   margin: 90px 90px;
-  margin-top: 200px;
+  margin-top: 180px;
 }
 .dashboard-mid .das-h h1 {
   font-weight: bold;
@@ -274,4 +274,140 @@ nav {
   font-weight: initial;
   font-size: 45px;
   margin-top: 35px;
+}
+/* ________________ */
+/* <!-- Centralize box_____________ --> */
+.centra-cont {
+  width: 100%;
+  /* height: 50au0px; */
+  /* border: 1px solid red; */
+  margin: auto;
+  margin-top: 50px;
+  display: flex;
+  justify-content: space-around;
+  box-shadow: rgba(40, 40, 93, 0.1) 0px 6px 12px -2px,
+    rgba(0, 0, 0, 0.1) 0px 3px 7px -3px;
+}
+.small-box {
+  /* border: 1px solid green; */
+  width: 30%;
+  height: 100%;
+  text-align: center;
+  margin-bottom: 15px;
+  color: rgba(17, 16, 16, 0.885);
+}
+.small-box img {
+  width: 100%;
+  height: 80%;
+}
+.small-box p {
+  margin-top: 5px;
+  line-height: 30px;
+  letter-spacing: 1px;
+  color: rgb(58, 57, 57);
+  font-size: 18px;
+}
+/* .small-box h1 {
+  margi
+} */
+.small-box h1 {
+  /* padding: 10px; */
+  margin-top: -10px;
+  margin-bottom: 50px;
+}
+/* <!-- ____________________- --> */
+
+/* <!-- _____________Integrate your work--- --> */
+
+/* .integ-cont h1 {
+  text-align: center;
+  font-weight: initial;
+  margin-top: 140px;
+  font-size: 41px;
+}
+.integ-box {
+  border: 1px solid red;
+  width: 100%;
+  height: 280px;
+  margin: auto;
+}
+.div-img {
+  display: flex;
+  justify-content: space-evenly;
+} */
+/* integ-sec */
+.integ-cont {
+  width: 100%;
+  height: 290px;
+  margin: auto;
+  /* border: 1px solid red; */
+  margin-top: 55px;
+}
+.integ-cont h1 {
+  text-align: center;
+  font-size: 40px;
+  font-weight: initial;
+}
+.integ-row {
+  display: flex;
+  justify-content: space-around;
+}
+.integ-row img {
+  display: flex;
+  justify-content: space-around;
+  width: 100%;
+  height: 100px;
+  padding: 3px;
+  margin-top: 20px;
+  margin-top: 55px;
+}
+.integ-rowt {
+  display: flex;
+  justify-content: space-around;
+}
+.integ-rowt img {
+  display: flex;
+  justify-content: space-around;
+  width: 100%;
+  height: 100px;
+
+  margin-top: 20px;
+  margin-left: 5px;
+  margin-right: 5px;
+}
+/* ____________________ */
+.see-d {
+  background-color: rgb(43, 44, 93);
+  width: 100%;
+  height: 260px;
+  margin: auto;
+  margin-top: 160px;
+  text-align: center;
+  border: 1px solid white;
+}
+.see-text {
+  margin: auto;
+  margin-top: 80px;
+}
+.see-text h1 {
+  font-weight: initial;
+  font-size: 40px;
+  color: white;
+}
+.see-get-d p {
+  width: 150px;
+  height: 40px;
+  margin: auto;
+}
+.see-get-d p {
+  margin: auto;
+  margin-top: 30px;
+  background-color: rgba(90, 90, 209, 0.656);
+  color: white;
+  border-radius: 20px;
+  padding: 10px;
+  cursor: pointer;
+}
+.see-get-d p:hover {
+  background-color: rgba(27, 27, 169, 0.892);
 }
