@@ -111,7 +111,6 @@ height: 0.5px;
     align-items: center;
     justify-content: center;
     text-align: center;
-    margin-bottom: 5%;
 }
 
 #last-container div h1{
@@ -119,9 +118,9 @@ height: 0.5px;
 }
 
 #last-container div button{
+    margin-top: 40px;
     padding: 15px 40px;
-    background-color: white
-    ;
+    background-color: white;
     color: #6161E9;
     font-weight: 500;
     border: 0px;

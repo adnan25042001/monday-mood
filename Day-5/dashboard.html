@@ -6,27 +6,12 @@
     <meta http-equiv="X-UA-Compatible" content="IE=edge" />
     <meta name="viewport" content="width=device-width, initial-scale=1.0" />
     <title>monday.com</title>
-     <link rel="stylesheet" href="style.css">
+     <link rel="stylesheet" href="./Style/dashboard.css">
+     <link rel="stylesheet" href="./Style/navbar_footer.css">
+    <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/font-awesome/4.7.0/css/font-awesome.min.css">
   </head>
   <body>
- <head>
-  <header>
-    <nav>
-      <div class="logo"> <img src="https://dapulse-res.cloudinary.com/image/upload/f_auto,q_auto/remote_mondaycom_static/img/monday-logo-x2.png" alt=""></div>
-      <div class="menu">
-        <a href="#">Products</a>
-        <a href="#">Use Case</a>
-        <a href="#">Feature</a>
-        <a href="#">Reosources</a>
-      </div>
-        <div class="icon">
-             <a href="#">pricing</a>
-             <a href="#">Contact Sales</a>
-             <a href="#">Login</a>
-             <a href="#">Get  Satrted-></a>
-        </div>
-    </div>
-  </nav>
+  <div id="navContainer"></div>
 
   <!-- mid sec----- -->
   <section id="mid-section">
@@ -50,7 +35,7 @@
         <video width="500px" height="470px" 
         controls="auto"  /> 
           
-        <source src="./media/dashboard-1st-video.mp4" 
+        <source src="./Media/dashboard-1st-video.mp4" 
             type="video/mp4"> 
     </video> 
       </div>   
@@ -105,7 +90,7 @@
         <video width="500px" height="470px" 
         controls="auto"  /> 
           
-        <source src="./media/LP_asset_team_into_board_longer.mp4" 
+        <source src="./Media/LP_asset_team_into_board_longer.mp4" 
             type="video/mp4"> 
     </video> 
       </div>   
@@ -134,3 +119,17 @@
 </div>
 </div>
 <!-- ------------------------- -->
+<div id="footerContainer"></div>
+</body>
+</html>
+
+<script type="module">
+
+  import { navbar, footer } from "./components/nav&footer.js"
+
+  document.querySelector("#navContainer").innerHTML = navbar();
+  document.querySelector("#footerContainer").innerHTML = footer();
+
+</script>
+
+<script src="./Scripts/dropdown.js"></script>

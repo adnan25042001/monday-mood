@@ -5,13 +5,15 @@
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>monday.com pricing and plans</title>
-    <link rel="stylesheet" href="index.css">
+    <link rel="stylesheet" href="./Style/navbar_footer.css">
+    <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/font-awesome/4.7.0/css/font-awesome.min.css">
+    <link rel="stylesheet" href="./Style/pricing.css">
     <link rel="icon" type="image/png" sizes="196x196" href="/static/img/favicons/favicon-monday5-192.png">
 </head>
 <body>
+    <div id="navContainer"></div>
     <div id="main">
         <div id="sidebar">
-            
                 <div>
                     <img src="https://dapulse-res.cloudinary.com/image/upload/Generator_featured%20images/Home%20Page%20-%202022%20Rebrand/footer/wm_icon_footer.png" alt="">
                 </div>
@@ -214,10 +216,10 @@
 
            
 
-        </div>
+            </div>
 
 
-        <div id="reviews">
+            <div id="reviews">
                     
             <div>
                 <img src="https://dapulse-res.cloudinary.com/image/upload/v1607704782/remote_mondaycom_static/img/segment-layout-default-images/customer-testimonials/thoughtworks.png" alt="" id="review-img">
@@ -230,17 +232,27 @@
 
             </div>
     
-        </div>
+            </div>
 
-        <div id="cr-button">
+            <div id="cr-button">
             <button onclick="first()"></button> <button onclick="second()"></button> <button onclick="third()"></button>
-        </div>
+            </div>
       
-
-
+        </div>
     </div>
-    </div>
+    <div id="footerContainer"></div>
 </body>
 </html>
 
-<script src="index.js"></script>
+<script type="module">
+
+    import { navbar, footer } from "./components/nav&footer.js"
+
+    document.querySelector("#navContainer").innerHTML = navbar();
+    document.querySelector("#footerContainer").innerHTML = footer();
+
+</script>
+
+<script src="./Scripts/dropdown.js"></script>
+
+<script src="./Scripts/pricing.js"></script>
