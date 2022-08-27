@@ -7,6 +7,10 @@
     font-family: sofia-pro, Roboto, Helvetica, Arial, sans-serif;
 }
 
+button{
+    cursor: pointer;
+}
+
 /* ********************************** Navbar section start********************************* */
 
 #navContainer {
@@ -404,6 +408,8 @@
 
 #navbar > div:last-child {
     display: flex;
+    justify-content: center;
+    align-items: center;
 }
 #navbar > div:last-child > a:hover {
     background-color: rgb(232, 240, 244);
@@ -435,6 +441,7 @@
 #footer {
     /* margin: 0px 50px 50px; */
     padding: 90px 0px 0px;
+    border-top: 1px solid rgb(212, 212, 212);
 }
 
 /* ********************************** Footer top section start ********************************* */
@@ -616,3 +623,38 @@
 /* ********************************** Footer bottom section end ********************************* */
 
 /* ********************************** Footer section end ********************************* */
+
+
+/* ********************************* media query *********************************** */
+
+
+@media all and (max-width:1460px) and (min-width:1200px){
+    #navbar{
+        padding: 0px 30px;
+    }
+}
+
+@media all and (max-width:1199px) and (min-width:400px){
+    #navbar{
+        padding: 0px 30px;
+    }
+    #navbar > div:last-child{
+        transform: scale(0);
+        visibility: hidden;
+        pointer-events: none;
+    }
+    #footer{
+        margin-left: 30px;
+        margin-right: 30px;
+    }
+    #footerb_Right{
+        transform: scale(0);
+        visibility: hidden;
+        pointer-events: none;
+    }
+    #footerb_Left>div:last-child>div:nth-child(2), #footerb_Left>div:last-child>p{
+        transform: scale(0);
+        visibility: hidden;
+        pointer-events: none;
+    }
+}
