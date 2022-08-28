@@ -1,0 +1,90 @@
+#signup-cont{
+    width: 730px;
+    height: 530px;
+    border: 3px solid rgba(128, 128, 128, 0.507);
+    font-family: 'Roboto', sans-serif;
+    display: flex;
+    margin: 60px auto;
+    border-radius: 10px;  
+}
+
+.signup-page-left{
+    /* border: 1px solid blue; */
+    width: 488px;
+    height: 480px;
+    margin: 30px;
+    margin-top: 0px;
+}
+
+.header-signup>p{
+    color: #141111;
+}
+.email-for-signup>input,label{
+    display: block;
+}
+
+.email-for-signup>input{
+    width: 340px;
+    padding: 7px 10px;
+    border: 2px solid #b3b3b396;
+    border-radius: 4px;
+    font-size: 18px;
+    font-weight: 500;
+    color: rgb(19, 3, 3);
+    margin-top: 15px;
+    margin-bottom: 15px;
+    outline: none;
+    
+}
+.email-for-signup>input::placeholder{
+    color: #0a0808a2;
+}
+.email-for-signup>input:checked{
+    height:30px;
+    width:30px;
+}
+.email-for-signup>input:hover{
+    color: blue;
+}
+span{
+    color: blue;
+}
+#button{
+    width: 150px;
+    height: 40px;
+    border-radius: 5px;
+    border: blue;
+    background-color:blue;
+    color: white;
+    font-size:large;
+    margin-left: 180px;
+}
+
+
+.signup-page-right{
+    background-color: rgba(223, 223, 223, 0.212);
+    background-image: url(https://dapulse-res.cloudinary.com/image/upload/monday_platform/signup/sign-up.png);
+    background-repeat: no-repeat; 
+    background-size:cover; 
+    border-radius: 10px;  
+    }
+
+    .signup-page-right-text{
+        /* border: 1px solid green; */
+        width: 220px;
+        margin-bottom: 45px;
+        font-weight: 500;
+        font-size: 15px;
+        color: white;
+        margin-top: 70px ;
+        margin-left: 70px;
+        line-height: 25px;
+    } 
+    hr{width: 70px;
+    margin-left:2px;}
+    #ceo{line-height: 20px;
+    font-style: italic;}
+#para{
+    line-height: 18px;
+    font-size: small;
+}

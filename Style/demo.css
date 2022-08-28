@@ -31,9 +31,7 @@
     /* border: 1px solid red; */
     width: 85%;
     /* box-shadow: 0px 0px 15px 10px rgba(179, 179, 179, 0.144); */
-    box-shadow: rgba(240, 46, 170, 0.4) -5px 5px,
-        rgba(240, 46, 170, 0.3) -10px 10px, rgba(240, 46, 170, 0.2) -15px 15px,
-        rgba(240, 46, 170, 0.1) -20px 20px, rgba(240, 46, 170, 0.05) -25px 25px;
+    box-shadow: rgba(29, 29, 242, 0.4) -10px 10px, rgba(29, 79, 242, 0.4) -20px 20px, rgba(29, 140, 242, 0.4) -30px 30px;
     margin-left: 5%;
 }
 

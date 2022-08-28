@@ -1,31 +1,15 @@
 
-  document.querySelector("form").addEventListener("submit", loginFunction);
-  var regdUsers = JSON.parse(localStorage.getItem("userdetails"));
-  function loginFunction() {
-    event.preventDefault();
-    var enteredEmail = document.querySelector("#login-mail").value;
-    // var enteredpass = document.querySelector("#pass").value;
-    for (var i = 0; i < regdUsers.length; i++) {
-      // console.log(regdUsers[i]);
-      if (
-        regdUsers[i].email == enteredEmail || regdUsers[i].pass == enteredpass
-      ) {
-        alert("Login Success");
-        window.location.href = "index.html";
-        break;
-      }
-      else {
-        alert("Login Failed");
-       
-      }
-    }
-  }
 
-  
-
-
-
-      
-
-
- 
+document.querySelector("form").addEventListener("submit", signUpFun);
+var userData = JSON.parse(localStorage.getItem("userdetails")) || []
+function signUpFun() {
+  event.preventDefault();
+ var userObj = {
+   email: document.querySelector("#name").value,
+   password: document.querySelector("#pass").value,
+   name:document.querySelector("#aname").value,
+  };
+userData.push(userObj);
+  localStorage.setItem("userdetails", JSON.stringify(userData))
+window.location.href = "login.html";
+}

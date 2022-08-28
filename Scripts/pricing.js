@@ -28,3 +28,11 @@ function third(){
 
     let revimg = document.getElementById('review-img').src='https://dapulse-res.cloudinary.com/image/upload/v1607704782/remote_mondaycom_static/img/segment-layout-default-images/customer-testimonials/genpact.png'
 }
+
+total = ()=> {
+    let selected = document.querySelector("#seats").value;
+
+    document.querySelector("#total1").innerHTML = selected*8;
+    document.querySelector("#total2").innerHTML = selected*10;
+    document.querySelector("#total3").innerHTML = selected*16;
+}

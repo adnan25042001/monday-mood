@@ -151,7 +151,7 @@ function navbar () {
                     <div>
                         <p>- Learn</p>
                         <div>
-                            <a href="">
+                            <a href="helpcenter.html">
                                 <h3>Help center</h3>
                                 <p>Tutorials and how-to guides for using monday.com</p>
                             </a>
@@ -259,7 +259,7 @@ function navbar () {
     <div>
         <a href="pricing.html">Pricing</a>
         <a href="">Contact sales</a>
-        <a href="">Log in</a>
+        <a href="login.html">Log in</a>
         <div id="form" class="dropdown" data-dropdown>
             <button class="btn" data-dropdown-btn>Get Started</button>
             <div class="dropdownForm">

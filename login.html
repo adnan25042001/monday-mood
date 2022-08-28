@@ -18,9 +18,9 @@
   <div id="login-page">
     <div class="login-cont">
       <p class="login-header">Log in to your account</p>
-      <form class="login-form">
-        <label>Enter your work email address</label>
-        <input type="email" id="login-mail" placeholder="Example@company.com" />
+      <form class="login-form" onsubmit="login()">
+        <input type="email" id="email" placeholder="Example@company.com" />
+        <input type="password" id="password" placeholder="Password">
         <input id="buttn" type="submit" value="Next ➜">
         <!-- <button submit="loginFunction()"></button> -->
       </form>
@@ -44,11 +44,12 @@
 
       <div class="signup-in-login">
         <p>Don't have an account yet?</p>
-        <a href="signup_monday.html">Sign Up</a>
+        <a href="./signupaccount.html">Sign Up</a>
       </div>
     </div>
   </div>
 </body>
 
 </html>
-<script src="signup.js"></script>
+
+<script src="./Scripts/login.js"></script>

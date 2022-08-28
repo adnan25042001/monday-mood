@@ -1,16 +1,20 @@
 <!DOCTYPE html>
 <html lang="en">
+
 <head>
     <meta charset="UTF-8">
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Document</title>
+    <link rel="stylesheet" href="./Style/navbar_footer.css">
+    <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/font-awesome/4.7.0/css/font-awesome.min.css">
     <link rel="stylesheet" href="./Style/helpcenter.css">
-    <link href="https://fonts.googleapis.com/icon?family=Material+Icons"
-    rel="stylesheet">
+    <link href="https://fonts.googleapis.com/icon?family=Material+Icons" rel="stylesheet">
 </head>
+
 <body>
-    
+
+    <div id="navContainer"></div>
 
     <div id="container">
         <div>
@@ -19,8 +23,8 @@
             </h5>
             <span class="material-icons">
                 search
-                </span>
-            <input  type="text" placeholder="Explore videos, articles, courses, and more" id="serach">
+            </span>
+            <input type="text" placeholder="Explore videos, articles, courses, and more" id="serach">
         </div>
     </div>
 
@@ -41,12 +45,13 @@
                 <p>3 min watch</p>
             </div>
             <div>
-                <img src=" https://monday.com/helpcenter/wp-content/uploads/2022/07/CornerStone-Project-management-steps-to-follow-for-successful-outcomes.jpg" alt="">
+                <img src=" https://monday.com/helpcenter/wp-content/uploads/2022/07/CornerStone-Project-management-steps-to-follow-for-successful-outcomes.jpg"
+                    alt="">
                 <h5>monday Workdocs</h5>
                 <h6>Learn how to collaborate on documents</h6>
                 <p>3 min watch</p>
             </div>
-           
+
 
         </div>
 
@@ -76,12 +81,31 @@
 
 
 
-<div id="last-container">
-    <div><h1>Can't find what you're looking for?
-    </h1>
-    <button>Contact Support</button></div>
-    
-</div>
+    <div id="last-container">
+        <div>
+            <h1>Can't find what you're looking for?
+            </h1>
+            <button>Contact Support</button>
+        </div>
+
+    </div>
+
+    <div id="footerContainer"></div>
 
 </body>
+
 </html>
+
+<script type="module">
+
+    import { navbar, footer } from "./components/nav&footer.js"
+
+    document.querySelector("#navContainer").innerHTML = navbar();
+    document.querySelector("#footerContainer").innerHTML = footer();
+
+</script>
+
+<script src="./Scripts/dropdown.js"></script>
+
+
+<script src="./Scripts/pricing.js"></script>
