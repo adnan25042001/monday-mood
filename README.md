@@ -7,12 +7,12 @@
 This blog is created to share our experience of working on a project assigned to us by Masai School,which was to create a clone of the monday.com website in 4 days
 
 ## Our group consist of the following member:
-Team Lead:- Adnan Hussain
-Member 1 :- Ashish Gupta
-Member 2 :- Umesh Bajaj
-Member 3 :- Rejaul Khan
-Member 4 :- Anish Singh
-IA Manager:- Huzaifa Banegar
+* Team Lead:- Adnan Hussain
+* Member 1 :- Ashish Gupta
+* Member 2 :- Umesh Bajaj
+* Member 3 :- Rejaul Khan
+* Member 4 :- Anish Singh
+* IA Manager:- Huzaifa Banegar
 
 ## TECHNOLOGY STACK WE USED
 This clone was built using the following technologies - 
