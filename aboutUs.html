@@ -6,118 +6,36 @@
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Document</title>
-    <style>
-        * {
-            margin: 0px;
-            padding: 0px;
-            box-sizing: border-box;
-        }
-
-        #bgImg {
-            background-image: url(//monday.com/p/wp-content/themes/monday-news/css/../images/about-hero-opt-2.jpg);
-            min-height: 492px;
-            display: -webkit-flex;
-            display: -moz-flex;
-            display: -ms-flex;
-            display: -o-flex;
-            display: flex;
-            -ms-align-items: center;
-            align-items: center;
-            align-content: center;
-            justify-content: center;
-            flex-wrap: wrap;
-            flex-direction: column;
-            background-repeat: no-repeat;
-            background-position: center center;
-            -webkit-background-size: contain;
-            background-size: contain;
-        }
-
-        #bgImg h1 {
-            font-size: 50px;
-        }
-
-        #random {
-            padding: 150px 230px 120px;
-            display: flex;
-            gap: 50px;
-            font-size: 18px;
-            color: rgb(81, 81, 81);
-            justify-content: space-between;
-        }
-
-        #random>div {
-            width: 520px;
-        }
-
-        #random p {
-            line-height: 1.4rem;
-        }
-
-        #points {
-            width: 100%;
-            background-color: #6c6cff;
-            height: 369px;
-            color: white;
-            padding: 60px 200px 70px;
-            text-align: center;
-        }
-
-        #points>h1 {
-            font-size: 40px;
-            line-height: 50px;
-            margin-bottom: 40px;
-        }
-
-        #points>div {
-            display: grid;
-            grid-template-columns: repeat(4, 1fr);
-            gap: 50px;
-        }
-
-        #points>div h1 {
-            font-size: 76px;
-            line-height: 100px;
-        }
-
-        #points>div p {
-            font-size: 22px;
-            margin: 0px 20px;
-        }
-        #points>div>div>div{
-            display: flex;
-            align-items: center;
-            justify-content: center;
-        }
-        #points>div>div>div p{
-            margin: 0px 0px 0px 50px;
-        }
-        #points img{
-            width: 70px;
-        }
-    </style>
+    <link rel="stylesheet" href="./Style/navbar_footer.css">
+    <link rel="stylesheet" href="./Style/aboutUs.css">
+    <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/font-awesome/4.7.0/css/font-awesome.min.css">
 </head>
 
 <body>
+    <div id="navContainer"></div>
     <div id="bgImg">
-        <h1>So how did <span>monday.com</span></h1>
-        <h1>come to be?</h1>
+        <h1>So how did <span>monday.com</span> come to be?</h1>
+        <img src="https://monday.com/p/wp-content/themes/monday-news/images/about-hero-mobile-2.png" id="bImg" alt="">
     </div>
     <div id="random">
         <div>
-            <p>Well for us, it happened somewhere in between collaborating and communicating, engaging one another and
+            <p>
+                Well for us, it happened somewhere in between collaborating and communicating, engaging one another and
                 scaling rapidly, being totally transparent and working the way we want, while always aspiring to outdo
                 our best. It grew in between building, creating, managing, and always laughing along the way. It
                 expanded as we integrated and automated, built workflows and created templates, and developed our
-                community beyond our wildest dreams. We experienced firsthand how much more we can accomplish when we
-                really, truly work together. We</p>
+                community beyond our wildest dreams. We experienced firsthand how much more we can accomplish when
+                wereally, truly work together.
+            </p>
         </div>
         <div>
-            <p>experienced how deeply empowering it is to build our own workflows with customizable building blocks. How
-                there can be a place where all work happens- eliminating silos, aligning our organizations, and
+            <p>
+                We experienced how deeply empowering it is to build our own workflows with customizable building blocks.
+                How there can be a place where all work happens- eliminating silos, aligning our organizations, and
                 elevating our teams. It is through this journey that the monday.com Work OS was born. It is in these
                 moments that the magic happens. And it is so exciting to know that as we continue on our mission
-                together, we’re only getting started...</p>
+                together, we’re only getting started...
+            </p>
         </div>
     </div>
     <div id="points">
@@ -148,47 +66,138 @@
         <div>
             <p>Our culture</p>
             <h1>When you break it down, it's all about the people</h1>
-            <img src="https://monday.com/p/wp-content/uploads/2020/09/culture-desktop.jpg" alt="">
+            <img src="https://monday.com/p/wp-content/uploads/2020/09/culture-desktop.jpg" alt="" id="peopleImg1">
+            <img src="https://monday.com/p/wp-content/themes/monday-news/images/culture-mobile.png" alt=""
+                id="peopleImg2">
         </div>
         <div>
             <div>
                 <h1>Transparency and Trust</h1>
-                <div></div>
-                <p>Data is at the core of our identity both as a company and a team, and is an essential part of our platform. Access to data allows teams to work even better together and perform at their professional best. It's that kind of total freedom that builds trust and leads to fast execution and high impact.</p>
+                <div class="vrLine"></div>
+                <p>Data is at the core of our identity both as a company and a team, and is an essential part of our
+                    platform. Access to data allows teams to work even better together and perform at their professional
+                    best. It's that kind of total freedom that builds trust and leads to fast execution and high impact.
+                </p>
             </div>
             <div>
                 <h1>Customer-Centricity</h1>
-                <div></div>
-                <p>Our customers’ satisfaction and success is at the heart of everything we do. We are passionately committed to helping customers with our best-in-class support, and we believe that when our customers win, we win.</p>
+                <div class="vrLine"></div>
+                <p>Our customers’ satisfaction and success is at the heart of everything we do. We are passionately
+                    committed to helping customers with our best-in-class support, and we believe that when our
+                    customers win, we win.</p>
             </div>
             <div>
                 <h1>Product-first</h1>
-                <div></div>
-                <p>We mean it when we say that a product should work for the customer and not the other way around. Every feature is designed with ease of use in mind to deliver the best user experience. And proven by the fact that more than 70% of our customers work in traditionally non-tech industries.</p>
+                <div class="vrLine"></div>
+                <p>We mean it when we say that a product should work for the customer and not the other way around.
+                    Every feature is designed with ease of use in mind to deliver the best user experience. And proven
+                    by the fact that more than 70% of our customers work in traditionally non-tech industries.</p>
             </div>
             <div>
                 <h1>Ownership and Impact</h1>
-                <div></div>
-                <p>We have learned that our employees need to take full ownership over their work, from A to Z, which instills a sense of personal investment and drive leading to better overall execution and an understanding that ‘done’ is often better than perfect.</p>
+                <div class="vrLine"></div>
+                <p>We have learned that our employees need to take full ownership over their work, from A to Z, which
+                    instills a sense of personal investment and drive leading to better overall execution and an
+                    understanding that ‘done’ is often better than perfect.</p>
             </div>
             <div>
                 <h1>Speed and Execution</h1>
-                <div></div>
-                <p>We believe the faster you execute, the faster you learn, iterate, and improve. We are constantly running at our own pace and seeking feedback, both internally and from customers, so we can outdo our best. We believe this eagerness to try and improve gives us a competitive edge, especially as we continue to scale.</p>
+                <div class="vrLine"></div>
+                <p>We believe the faster you execute, the faster you learn, iterate, and improve. We are constantly
+                    running at our own pace and seeking feedback, both internally and from customers, so we can outdo
+                    our best. We believe this eagerness to try and improve gives us a competitive edge, especially as we
+                    continue to scale.</p>
             </div>
             <div>
                 <h1>Inclusivity</h1>
-                <div></div>
-                <p>We have embedded inclusivity in the core of our company values and our platform experience, providing an experience open to everyone. We prioritize inclusion and diversity not only because it is right, but because we believe it creates better teams and ultimately a better product.</p>
+                <div class="vrLine"></div>
+                <p>We have embedded inclusivity in the core of our company values and our platform experience, providing
+                    an experience open to everyone. We prioritize inclusion and diversity not only because it is right,
+                    but because we believe it creates better teams and ultimately a better product.</p>
             </div>
         </div>
     </div>
     <div id="location">
         <h1>Location</h1>
+        <button>Join our team!</button>
     </div>
+    <div id="gray"></div>
+    <div id="getToKnow">
+        <h1>Get to know us better</h1>
+        <div>
+            <div>
+                <img src="https://monday.com/p/wp-content/themes/monday-news/images/get-to-know-temp.jpg" alt="">
+                <div>
+                    <h3>Read</h3>
+                    <h2>monday.com in the news</h2>
+                    <p>Check out some of our favourite articles over the years!</p>
+                </div>
+            </div>
+            <div>
+                <img src="https://monday.com/p/wp-content/uploads/2020/09/get-to-know-listen.png" alt="">
+                <div>
+                    <h3>Listen</h3>
+                    <h2>Startup for startup podcast</h2>
+                    <p>Sharing insights, experience and knowledge.</p>
+                </div>
+            </div>
+            <div>
+                <img src="https://monday.com/p/wp-content/uploads/2020/09/get-to-know-explore.png" alt="">
+                <div>
+                    <h3>Explore</h3>
+                    <h2>Our blog ‘stacks’</h2>
+                    <p>Customer stories, tips, and our opinions on everything in between.</p>
+                </div>
+            </div>
+        </div>
+    </div>
+    <div id="social">
+        <h1>Let's get social</h1>
+        <div>
+            <img src="https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcQxoNXYFnwIUT1bdlj6_U2ij7QrmpGCGgizOg&usqp=CAU"
+                alt="">
+            <img src="data:image/png;base64,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"
+                alt="">
+            <img src="https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcTX2WzzGe8RuWjgFlJzufRk-orIW8R7dRyzxA&usqp=CAU"
+                alt="">
+            <img src="https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcTCSPaFQq-Eyoa878pca55a046myfGy9iD2uQ&usqp=CAU"
+                alt="">
+            <img src="data:image/png;base64,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"
+                alt="">
+            <img src="https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcS_n-qx6rFVwb6oM1S0mW75Swd9z8v8tv8q4A&usqp=CAU"
+                alt="">
+        </div>
+    </div>
+    <div id="instaLinks">
+        <img src="https://monday.com/p/wp-content/uploads/sb-instagram-feed-images/301243984_2010060749177844_1595486327264370989_nlow.jpg"
+            alt="">
+        <img src="https://monday.com/p/wp-content/uploads/sb-instagram-feed-images/300747866_612520590499099_7747732526940849691_nlow.jpg"
+            alt="">
+        <img src="https://monday.com/p/wp-content/uploads/sb-instagram-feed-images/300236142_589188012689126_6315828763316959161_nlow.jpg"
+            alt="">
+        <img src="https://monday.com/p/wp-content/uploads/sb-instagram-feed-images/299962388_184382484054204_7020951124128053169_nlow.jpg"
+            alt="">
+        <img src="https://monday.com/p/wp-content/uploads/sb-instagram-feed-images/300591352_478747256988226_5923065312220306970_nlow.jpg"
+            alt="">
+    </div>
+    <div id="trial">
+        <h1>Empowering teams to accomplish more, together</h1>
+        <button>Get Started</button>
+        <p>14-day free trial | No credit card needed</p>
+    </div>
+    <div id="footerContainer"></div>
 </body>
 
 </html>
 
 
-<!-- //monday.com/p/wp-content/themes/monday-news/css/../images/about-hero-opt-2.jpg -->
+<script type="module">
+
+    import { navbar, footer } from "./components/nav&footer.js"
+
+    document.querySelector("#navContainer").innerHTML = navbar();
+    document.querySelector("#footerContainer").innerHTML = footer();
+
+</script>
+
+<script src="./Scripts/dropdown.js"></script>
