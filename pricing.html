@@ -53,14 +53,14 @@
             </div>
             <div id="year-selection">
                 <div>
-                    Choose team size: <select name="" id="">
-                        <option value="">3 Seats</option>
-                        <option value="">5 Seats</option>
-                        <option value="">10 Seats</option>
-                        <option value="">15 Seats</option>
-                        <option value="">20 Seats</option>
-                        <option value="">25 Seats</option>
-                        <option value="">30 Seats</option>
+                    Choose team size: <select name="" id="seats" onchange="total()">
+                        <option value="3">3 Seats</option>
+                        <option value="5">5 Seats</option>
+                        <option value="10">10 Seats</option>
+                        <option value="15">15 Seats</option>
+                        <option value="20">20 Seats</option>
+                        <option value="25">25 Seats</option>
+                        <option value="30">30 Seats</option>
                     </select>
                 </div>
                 <div>
@@ -103,7 +103,7 @@
                         <h1>$8</h1>
                         <h4>seat/ month</h4>
                     </div>
-                    <p>Total $24 / month
+                    <p>Total $<span id="total1">24</span> / month
                     </p>
                     <h5>Billed annually</h5>
                     <div id="try-for-free">
@@ -143,7 +143,7 @@
                         <h1>$10</h1>
                         <h4>seat/ month</h4>
                     </div>
-                    <p>Total $30 / month
+                    <p>Total $<span id="total2">30</span> / month
                     </p>
                     <h5>Billed annually
                     </h5>
@@ -181,7 +181,7 @@
                         <h1>$16</h1>
                         <h4>seat/ month</h4>
                     </div>
-                    <p>Total $48 / month
+                    <p>Total $<span id="total3">48</span> / month
                     </p>
                     <h5>Billed annually
                     </h5>
