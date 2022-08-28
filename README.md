@@ -1,19 +1,27 @@
-Team Members 
-Team Lead:- Adnan Hussain
-Member 1:- Ashish Gupta
-Member 2:- Umesh Bajaj
-Member 3:- Rejaul Khan
-Member 4:- Anish Singh
-IA Manager:- Huzaifa Banegar
-
-
 # kaput-chin-6583
 * Medium id -:
 * Video link-: 
 * Netlify-:
 
-Created a monday.com clone
+## CLONING OF OUT WEBSITE MONDAY.COM
+This blog is created to share our experience of working on a project assigned to us by Masai School,which was to create a clone of the monday.com website in 4 days
 
+## Our group consist of the following member:
+Team Lead:- Adnan Hussain
+Member 1 :- Ashish Gupta
+Member 2 :- Umesh Bajaj
+Member 3 :- Rejaul Khan
+Member 4 :- Anish Singh
+IA Manager:- Huzaifa Banegar
+
+## TECHNOLOGY STACK WE USED
+This clone was built using the following technologies - 
+* HTML
+* CSS
+* Javascript (DOM Events and Attributes)
+
+
+Created a monday.com clone
 # Table of Contents
 
 * [Intoduction](#introduction)
@@ -50,10 +58,13 @@ img5?
 This page is basically for the user to enter his/her details if he/she is interested to have a demo shown to them.
 img6?
 
+## EXPECTATION:
 
-## Technologies
-This clone was built using the following technologies - 
-* HTML
-* CSS
-* Javascript (DOM Events and Attributes)
+We are expecting to create a pixel-perfect cloned site of monday.com website within four days. with all its pages,given proper HTML,CSS properties,using DOM and MEDIA QUERY concepts with respect to the official monday.com website.
 
+## CHALLENGES WE FACED AND HOW WE SOLVED THEM:
+
+As it was the first time for us collaborating remotely on a project .We faced a quite a few challenges while developing the clone.The challenges we can remember are as follow:-
+- Git was completely new to us and thus it became a challenge the merge the code on GitHub.
+- Another challenge was solving the problem of the Javascript part of local Storage . It happened sometimes that there were few redundant classes and the output used to get disoriented.Solving it required a thorough checkup of class names and id names.effective communication among us so that we could prevent it from happeing.
+- As we are not using UI libraries yet, we faced a lot of challenges while getting similar layout with different screen sizes.Although we were able to manage most of it,this issue is something that we got to know could only be resolved with the UI libraries, so we decided to move on and fix other things.
