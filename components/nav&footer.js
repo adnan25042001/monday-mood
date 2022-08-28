@@ -151,7 +151,7 @@ function navbar () {
                     <div>
                         <p>- Learn</p>
                         <div>
-                            <a href="">
+                            <a href="helpcenter.html">
                                 <h3>Help center</h3>
                                 <p>Tutorials and how-to guides for using monday.com</p>
                             </a>
