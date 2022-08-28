@@ -5,6 +5,8 @@
   <meta http-equiv="X-UA-Compatible" content="IE=edge">
   <meta name="viewport" content="width=device-width, initial-scale=1.0">
   <title>Demo Page</title>
+  <link rel="stylesheet" href="./Style/navbar_footer.css">
+    <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/font-awesome/4.7.0/css/font-awesome.min.css">
   <link rel="stylesheet" href="./Style/demo.css">
   <style>
     
@@ -12,6 +14,9 @@
 </head>
 
 <body>
+
+  <div id="navContainer"></div>
+
   <div id="demo">
     <h1>Request a demo</h1>
     <h2>Let us show you why over 150,000 customers worldwide choose monday.com to streamline processes,bridge over
@@ -135,6 +140,21 @@
           alt="">
       </div>
     </div>
+  </div>
+
+    <div id="footerContainer"></div>
+
 </body>
 
 </html>
+
+<script type="module">
+
+  import { navbar, footer } from "./components/nav&footer.js"
+
+  document.querySelector("#navContainer").innerHTML = navbar();
+  document.querySelector("#footerContainer").innerHTML = footer();
+
+</script>
+
+<script src="./Scripts/dropdown.js"></script>

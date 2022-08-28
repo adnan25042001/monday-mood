@@ -16,6 +16,7 @@ button{
 #navContainer {
     position: sticky;
     top: 0%;
+    width: 100%;
     box-shadow: rgba(67, 177, 196, 0.1) 0px 3px 7px;
     background-color: white;
     z-index: 100;
@@ -442,6 +443,8 @@ button{
     /* margin: 0px 50px 50px; */
     padding: 90px 0px 0px;
     border-top: 1px solid rgb(212, 212, 212);
+    width: 100%;
+    margin-top: 50px;
 }
 
 /* ********************************** Footer top section start ********************************* */

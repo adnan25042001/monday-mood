@@ -2,9 +2,11 @@
 function navbar () {
     return `<div id="navbar">
     <div>
+        <a href="index.html">
         <img class="logo"
             src="https://dapulse-res.cloudinary.com/image/upload/f_auto,q_auto/remote_mondaycom_static/img/monday-logo-x2.png"
             alt="">
+        </a>
         <div class="dropdown" data-dropdown>
             <button class="btn" data-dropdown-btn>Products <span class="btnArrows"></span></button>
             <div class="dropdownProd">
@@ -131,6 +133,11 @@ function navbar () {
                                 alt="">
                             Canvas
                         </a>
+                        <a href="enterprise.html">
+                            <img src="https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcQM5lsb3PRc2xP9rakjnRshFQPPpxnaZONDQA&usqp=CAU"
+                                alt="">
+                            Enterprise
+                        </a>
                     </div>
                 </div>
             </div>
@@ -150,7 +157,7 @@ function navbar () {
                             </a>
                         </div>
                         <div>
-                            <a href="">
+                            <a href="aboutUs.html">
                                 <h3>About us</h3>
                                 <p>how monday.com came to be, our values and milestones</p>
                             </a>
