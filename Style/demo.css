@@ -1,0 +1,158 @@
+* {
+    font-weight: 300;
+    font-family: sofia-pro system-ui, -apple-system, BlinkMacSystemFont,
+        "Segoe UI", Roboto, Oxygen, Ubuntu, Cantarell, "Open Sans",
+        "Helvetica Neue", sans-serif;
+}
+
+#demo {
+    /* border: 2px solid red; */
+    height: 300px;
+    width: 70%;
+    margin: auto;
+}
+
+h1,
+h2 {
+    margin-top: 45px;
+    font-size: 2em;
+    text-align: center;
+    color: black;
+}
+
+h1 {
+    font-size: 48px;
+    line-height: 40px;
+    font-weight: 700;
+}
+
+.request-demo-form-and-img-cont {
+    display: flex;
+    box-shadow: 0px 0px 15px 10px rgba(179, 179, 179, 0.144);
+    width: 100%;
+    justify-content: center;
+}
+
+.request-demo-form-page {
+    /* border: 1px solid red; */
+    width: 85%;
+    /* box-shadow: 0px 0px 15px 10px rgba(179, 179, 179, 0.144); */
+    box-shadow: rgba(240, 46, 170, 0.4) -5px 5px,
+        rgba(240, 46, 170, 0.3) -10px 10px, rgba(240, 46, 170, 0.2) -15px 15px,
+        rgba(240, 46, 170, 0.1) -20px 20px, rgba(240, 46, 170, 0.05) -25px 25px;
+    margin-left: 5%;
+}
+
+.request-demo-form {
+    display: grid;
+    gap: 20px;
+    grid-template-columns: repeat(2, 40%);
+    justify-content: center;
+}
+
+#first-nam,
+#last-nam,
+#company-size,
+#job-title,
+#feedback,
+#mob-no,
+#company-nam,
+#request-mail {
+    display: block;
+    margin-top: 10px;
+}
+
+#first-nam,
+#last-nam,
+#job-title,
+#request-mail {
+    width: 85%;
+    padding: 8px;
+    border-radius: 5px;
+    border: 1px solid #8b8b8bbd;
+    font-size: 15px;
+}
+
+#request-mail::placeholder {
+    font-size: 14px;
+}
+
+#mob-no {
+    width: 190%;
+    padding: 8px;
+    border-radius: 5px;
+    border: 1px solid #8b8b8bbd;
+    font-size: 15px;
+}
+
+#company-nam {
+    width: 100%;
+    padding: 8px;
+    border-radius: 5px;
+    border: 1px solid #8b8b8bbd;
+    font-size: 15px;
+}
+
+#company-size {
+    width: 74%;
+    padding: 8px;
+    border-radius: 5px;
+    border: 1px solid #8b8b8bbd;
+    font-size: 15px;
+    margin-left: 15%;
+}
+
+#feedback {
+    width: 195%;
+    padding: 8px;
+    border-radius: 5px;
+    border: 1px solid #8b8b8bbd;
+    font-size: 15px;
+    resize: none;
+    overflow: hidden;
+}
+
+#request-demo-btn {
+    font-size: 16px;
+    padding: 12px 35px;
+    color: white;
+    background-color: #008bc7;
+    cursor: pointer;
+    border: none;
+    border-radius: 50px;
+    margin-top: 25px;
+    margin-bottom: 30px;
+    outline: none;
+    margin-left: 70%;
+}
+
+#request-demo-btn:hover {
+    background-color: #127fad;
+}
+
+.right-section {
+    padding-top: 50px;
+    display: flex;
+}
+
+.right-section > img {
+    width: 45px;
+    height: 45px;
+}
+
+.right-section > div {
+    width: 100%;
+    height: 50px;
+}
+
+.bottom-right-section {
+    display: flex;
+    flex-wrap: wrap;
+    padding: 5px;
+}
+
+.bottom-right-img {
+    margin: 5px;
+    height: 70px;
+    width: 120px;
+}
