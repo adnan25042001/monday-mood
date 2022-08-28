@@ -249,13 +249,11 @@ nav {
   font-weight: initial;
   font-size: 40px;
 }
-.get-d p {
+.get-d button {
   width: 150px;
   height: 40px;
   margin: auto;
-}
-.get-d p {
-  margin: auto;
+  text-decoration: none;
   margin-top: 30px;
   background-color: rgba(56, 56, 171, 0.656);
   color: white;
@@ -263,7 +261,7 @@ nav {
   padding: 10px;
   cursor: pointer;
 }
-.get-d p:hover {
+.get-d button:hover {
   background-color: rgba(27, 27, 169, 0.892);
 }
 /* <!-- ----------------_ --> */

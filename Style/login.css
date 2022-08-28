@@ -1,178 +1,141 @@
-.container{
-    width: 30%;
-    margin: auto;
-    font-family: sans-serif;;
-    box-shadow: rgba(100, 100, 111, 0.2) 0px 7px 29px 0px;
-    z-index: 100;
-    position: absolute;
-    top: -120%;
-    left: 40%;
-    background-color: white;
-    
-    
+* {
+    margin: 0;
+    padding: 0;
+    }
+
+.header-image{
+    border: 1px solid #e7e7e7c7;
+    background-color: #f5f5f5c7;
+    padding-top: 8px;
+    padding-bottom: 8px;
 }
-.active{
-    width: 30%;
-    margin: auto;
-    font-family: sans-serif;;
-    box-shadow: rgba(100, 100, 111, 0.2) 0px 7px 29px 0px;
-    z-index: 100;
-    position: absolute;
-    top: 20%;
-    left: 40%;
-    background-color: white;
-    
+.header-image>img{
+    width: 180px;
+    margin-left: 20px;
 }
 
-form>h3{
-text-align: center;
-margin-bottom: 20px;
-font-size: 30px;
-font-family:  lato, Arial, Helvetica, sans-serif;
+#login-page{
+    font-family: 'Roboto', sans-serif;
+    box-sizing: border-box;
+    width: 100%;
+    height: 100%;
 }
-form{
-
-width: 90%;
-margin: auto;
-padding: 50px;
-padding-top: 20px;
-}
-input[type="text"],input[type="password"]{
-display: block;
-width: 90%;
-outline: none;
-border: none;
-padding: 15px;
-border-bottom: 1px solid black;
-font-family:  lato, Arial, Helvetica, sans-serif;
-}
-
-input[type="submit"]{
-display: block;
-border: 0px;
-border-radius: 5px;
-margin: auto;
-text-align: center;
-background-color: #3cc6dc;
-color: white;
-margin-top: 9px;
-margin-right: 70px;
-padding: 20px 180px;
+.login-cont{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    /* border: 1px solid red; */
+    margin-top: 85px;
 
 }
-div>button{
-    left: 97%;
-    top: -2%;
-    position: absolute;
-    border: 2px solid white;
-    border-radius: 100%;
+.login-header{
+    font-size: 40px;
+    /* font-family: 'Roboto', sans-serif; */
+    font-weight: 100;
+}
+
+.login-form>label{
+    font-size: 16px;
+    font-weight: 500;
+    margin-top: 30px;
+    /* font-family: 'Roboto', sans-serif; */
+    margin-bottom: 7px;
+    color: rgb(48, 48, 48);
+    text-align: center;
+
+}
+
+.login-form>label,input,button{
+    display: block;
+}
+.login-form>input{
+    width: 340px;
+    font-size: 17px;
+    height: 20px;
+    border: 1px solid rgba(185, 185, 185, 0.781);
+    outline: none;
+    border-radius: 5px;
+    color: rgb(65, 65, 65);
+    padding: 10px;
+}
+.login-form>input:hover{color: blue;}
+.login-form>input::placeholder{
+    color: rgb(167, 167, 167);
+    font-size: 15px;
+}
+
+#buttn{
+    width: 355px;
+    font-size: 18px;
+    height: 45px;
+    background-color: rgb(15, 163, 225);
+    outline: none;
+    border: none;
+    border-radius: 10px;
+    border-bottom: 3px solid rgb(0, 144, 206);
     color: white;
-    background-color: black;
-    font-family:  lato, Arial, Helvetica, sans-serif;
+    cursor: pointer;
+    margin-top: 25px;
+}
+#buttn:hover{
+    background-color: rgb(6, 92, 129);
+}
 
+.sign-in-option-para{
+    display: flex;
+    margin-top: 30px;
+    font-weight: 300;
+    font-size: 16px;
+    justify-content: center;
+    align-items: center;
 }
-form>a{
-    display: block;
-    text-align: center;
-    text-decoration: none;
-    margin-top:30px;
-    font-family:  lato, Arial, Helvetica, sans-serif;
-    color: #3cc6dc;
+.sign-in-option-para>div{
+    margin: 5px 15px;
 }
-.scontainer{
-    width: 30%;
-    margin: auto;
-    font-family: sans-serif;;
-    box-shadow: rgba(100, 100, 111, 0.2) 0px 7px 29px 0px;
-    z-index: 100;
-    position: absolute;
-    top: -120%;
-    left: 40%;
-    background-color: white;
+.sign-in-option-para p{
+    /* border: 1px solid red; */
     
-}
-.sactive{
-    width: 30%;
-    margin: auto;
-    font-family: sans-serif;;
-    box-shadow: rgba(100, 100, 111, 0.2) 0px 7px 29px 0px;
-    z-index: 100;
-    position: absolute;
-    top: 20%;
-    left: 40%;
-    background-color: white;
-    
-}
-
-#signupform>h3{
-text-align: center;
-margin-bottom: 20px;
-font-size: 30px;
-font-family:  lato, Arial, Helvetica, sans-serif;
-}
-#signupform{
-
-width: 90%;
-margin: auto;
-padding: 50px;
-padding-top: 20px;
-}
-#signupform>input[type="text"],#signupform>input[type="password"],#signupform>input[type="email"]{
-display: block;
-width: 90%;
-outline: none;
-border: none;
-padding: 15px;
-border-bottom: 1px solid black;
-font-family:  lato, Arial, Helvetica, sans-serif;
-}
-/* box-sizing: border-box; */
-
-/* label{
-display: block;
-
-font-size: 20px;
-margin-top: 8px;
-margin-bottom: 4px;
-
-} */
-#signupform>input[type="submit"]{
-display: block;
-border: 0px;
-border-radius: 5px;
-margin: auto;
-text-align: center;
-background-color: #3cc6dc;
-color: white;
-margin-top: 9px;
-margin-right: 70px;
-padding: 20px 180px;
+    width: 200px;
+    height: 2px;
+    background-color:  rgba(185, 185, 185, 0.781);
+    border-radius: 10px;
 
 }
-div>button{
-    left: 97%;
-    top: -2%;
-    position: absolute;
-    border: 2px solid white;
-    border-radius: 100%;
-    color: white;
-    background-color: black;
-    font-family:  lato, Arial, Helvetica, sans-serif;
+.sign-in-with{
 
+    display: flex;
+    margin-top: 25px;
 }
-#signupform>p>a{
-    display: block;
-    text-align: center;
+
+.sign-in-with div>img{
+    width: 25px;
+    margin: 5px;
+}
+
+.sign-in-with-google{
+    border: 1px solid rgba(13, 3, 3, 0.781);
+    font-weight: 300;
+    border-radius: 10px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    margin: 10px;
+    padding: 1px 12px;
+    cursor: pointer;
+}
+.sign-in-with-google>p>a{
     text-decoration: none;
-    margin-top:30px;
-    font-family:  lato, Arial, Helvetica, sans-serif;
-    color: #3cc6dc;
+    color: rgb(18, 2, 2);
 }
-#signupform>p{
-    display: block;
-    text-align: center;
+
+.signup-in-login{
+    display: flex;
+    margin: 25px 0;
+    font-weight: 300;
+}
+.signup-in-login>a{
     text-decoration: none;
-    margin-top:30px;
-    font-family:  lato, Arial, Helvetica, sans-serif;
-    color: black;
+    margin-left: 5px;
+    color: rgb(0, 144, 206);
 }
