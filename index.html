@@ -5,10 +5,15 @@
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Document</title>
+    <link rel="stylesheet" href="./Style/navbar_footer.css">
+    <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/font-awesome/4.7.0/css/font-awesome.min.css">
     <link rel="stylesheet" href="./Style/index.css">
+    <!-- <link rel="stylesheet" href="./Style/login.css"> -->
 </head>
 <body>
-    <div id="navbar"></div>
+    <div id="navContainer"></div>
+       
+
     <div id="top">
         <div id="heading_section">
             <h1>A platform built for a new way of working</h1>
@@ -535,8 +540,19 @@ Since adopting monday.com, our global marketing department has seen a 40% improv
             </div>
         </div>
     </div>
-    <div id="footer"></div>
+    <div id="footerContainer"></div>
 </body>
 </html>
+
+<script type="module">
+
+    import { navbar, footer } from "./components/nav&footer.js"
+
+    document.querySelector("#navContainer").innerHTML = navbar();
+    document.querySelector("#footerContainer").innerHTML = footer();
+
+</script>
+
+<script src="./Scripts/dropdown.js"></script>
 
 <script src="/scripts/index.js"></script>

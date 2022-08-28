@@ -313,3 +313,8 @@ hr{
     background-color: gray;
     margin-left: 5%;
 }
+button>a{
+    font-style: none;
+    color: black;
+    text-decoration: none;
+}

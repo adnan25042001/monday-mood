@@ -102,7 +102,7 @@ function navbar () {
                             </a>
                         </div>
                         <div id="dashboard">
-                            <a href="">
+                            <a href="dashboard.html">
                                 <div>
                                     <img src="https://img.icons8.com/fluency/2x/dashboard-layout.png" alt="">
                                 </div>
@@ -250,7 +250,7 @@ function navbar () {
         </div>
     </div>
     <div>
-        <a href="">Pricing</a>
+        <a href="pricing.html">Pricing</a>
         <a href="">Contact sales</a>
         <a href="">Log in</a>
         <div id="form" class="dropdown" data-dropdown>

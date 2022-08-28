@@ -1,5 +1,5 @@
 #top{
-    height:800px ;
+    /* height:800px ; */
     width:100%;
     background-color: rgb(16, 16, 71);
     position: absolute;
@@ -116,6 +116,7 @@
     font-size: 18px;
     margin-top: 20px;
 }
+
 #tri_img{
     position: sticky;
     top:0px;
