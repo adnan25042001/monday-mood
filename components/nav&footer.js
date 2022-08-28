@@ -288,11 +288,11 @@ function footer () {
             <img class="logo"
                 src="https://dapulse-res.cloudinary.com/image/upload/f_auto,q_auto/remote_mondaycom_static/img/monday-logo-x2.png"
                 alt="">
-            <a href="#">Pricing</a>
+            <a href="pricing.html">Pricing</a>
             <a href="#">Contact us</a>
             <a href="#">Templates</a>
             <a href="#">SBM</a>
-            <a href="#">Enterprise</a>
+            <a href="enterprise.html">Enterprise</a>
             <a href="#">Nonprofits</a>
             <a href="#">Apps marketplace</a>
             <a href="#">24/7 support</a>
@@ -303,7 +303,7 @@ function footer () {
             <a href="#">Integrations</a>
             <a href="#">Automations</a>
             <a href="#">Files</a>
-            <a href="#">Dashboards</a>
+            <a href="dashboard.html">Dashboards</a>
             <a href="#">Kanban</a>
             <a href="#">Gantt</a>
         </div>
@@ -363,7 +363,7 @@ function footer () {
         </div>
         <div id="company">
             <h3>Company</h3>
-            <a href="#">About us</a>
+            <a href="aboutUs.html">About us</a>
             <a href="#">Careers - We're hiring!</a>
             <a href="#">monday-U</a>
             <a href="#">Press</a>
