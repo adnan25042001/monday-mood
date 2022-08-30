@@ -1,7 +1,6 @@
 # kaput-chin-6583
-* Medium id -:
-* Video link-: 
-* Netlify-:
+* Video link-:https://drive.google.com/file/d/1cDc4yivt7agv2fdo3fX_DeH0EAD6iNbV/view
+* Netlify-:https://roaring-meringue-e04538.netlify.app/
 
 ## CLONING OF OUT WEBSITE MONDAY.COM
 This blog is created to share our experience of working on a project assigned to us by Masai School,which was to create a clone of the monday.com website in 4 days
