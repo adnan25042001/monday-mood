@@ -269,7 +269,7 @@ hr{
     border-radius: 5px;
     position: relative;
     top: 20px;
-    z-index: 100;
+    z-index: 1;
     background-color: white;
 }
 #reviews>div>img{
